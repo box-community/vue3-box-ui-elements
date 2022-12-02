@@ -4,8 +4,8 @@
 
 <script setup>
     import { onMounted, onUnmounted } from 'vue'
-    import '../../node_modules/box-ui-elements/dist/explorer.js'
-    import '../../node_modules/box-ui-elements/dist/explorer.css'
+    import 'box-ui-elements/dist/explorer.js'
+    import 'box-ui-elements/dist/explorer.css'
 
     const props = defineProps({
         folderId: String
